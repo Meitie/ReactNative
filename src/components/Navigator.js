@@ -28,7 +28,11 @@ class Navigator extends Component {
     })
   }
 
+<<<<<<< HEAD
   //testing merge conflict
+=======
+  //click for about
+>>>>>>> master
   avatarToAbout(){
      this.setState({
       screenIndex: 0,
