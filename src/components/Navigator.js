@@ -70,6 +70,7 @@ class Navigator extends Component {
     }    
   }
 
+  //render the screen
   render() {
     const {screenIndex} = this.state
     console.log(screenIndex)
