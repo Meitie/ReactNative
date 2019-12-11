@@ -35,6 +35,7 @@ class Navigator extends Component {
     })
   }
 
+  //render different screens
   renderScreen() {
     const { screenIndex } = this.state
 
