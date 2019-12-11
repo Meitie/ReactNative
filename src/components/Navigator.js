@@ -28,6 +28,7 @@ class Navigator extends Component {
     })
   }
 
+  //click for about
   avatarToAbout(){
      this.setState({
       screenIndex: 0,
