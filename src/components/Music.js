@@ -12,7 +12,8 @@ class Music extends Component {
     	this.filterSongs = this.filterSongs.bind(this)
     	this.userValue = this.userValue.bind(this)
 	}
-
+	
+	//this is filtering the song
 	filterSongs(){
 		let filteredSongs = []
 		const filterText = this.state.filterText
