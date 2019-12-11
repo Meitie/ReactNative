@@ -21,6 +21,7 @@ class Navigator extends Component {
     this.avatarToAbout = this.avatarToAbout.bind(this)
   }
 
+  //this is state check to change screens
   changeScreen(screenIndex){
     this.setState({
       screenIndex: screenIndex,
